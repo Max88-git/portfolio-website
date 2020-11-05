@@ -1,3 +1,4 @@
+// Navigation hamburger toggle
 $(function() {
     $(".toggle").on("click", function(){
         if($(".nav-item").hasClass("active")){
