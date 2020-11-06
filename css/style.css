@@ -134,13 +134,16 @@ header,section {
     color: white;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
 }
 
 h1 {
@@ -156,6 +159,12 @@ h2 {
     line-height: 1.2;
 }
 
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+
 .lead {
     font-size: 1.25rem;
     font-weight: 400;
@@ -163,11 +172,14 @@ h2 {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 760px;
     }
 }
 
 #profile {
     border-radius: 50%;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
