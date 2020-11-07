@@ -4,8 +4,12 @@
     margin: 0;
 }
 
-body {
+html {
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
     line-height: 1.5;
     text-align: left;
 }
@@ -31,7 +35,6 @@ a:hover {
 .menu li {
     font-size: 1rem;
     padding: 15px 5px;
-
 }
 
 .menu li a {
@@ -176,10 +179,19 @@ h3 {
     }
 }
 
-#profile {
+#profile-img {
     border-radius: 50%;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.skills-icons {
+    margin-right: 10px;
+    transition: transform .2s;
+}
+
+.skills-icons:hover {
+    transform: scale(1.2);
 }
