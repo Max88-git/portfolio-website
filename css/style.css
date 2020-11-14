@@ -194,7 +194,7 @@ h1,h2,h3 {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1200px;
+        max-width: 1140px;
     }
 }
 
@@ -233,6 +233,8 @@ h1,h2,h3 {
     justify-content: center;
     margin: 30px;
     padding: 20px 20px;
+    -webkit-box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
     box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
 }
 
@@ -280,6 +282,8 @@ h1,h2,h3 {
 
 .card .btn:hover {
     transform: translateY(-2px);
+    -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 
@@ -336,6 +340,8 @@ h1,h2,h3 {
     background: #4f5d75;
     border-radius: 5px;
     padding: 40px;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
