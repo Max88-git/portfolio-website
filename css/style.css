@@ -215,6 +215,8 @@ h1,h2,h3 {
 }
 
 .skills-icons:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
