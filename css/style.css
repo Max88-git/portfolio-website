@@ -50,6 +50,9 @@ a:hover {
 
 /* Mobile Menu */
 .menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -222,6 +225,9 @@ h1,h2,h3 {
 
 /* Portfolio */
 .card-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     align-content: center;
@@ -231,6 +237,9 @@ h1,h2,h3 {
 .card {
     width: 320px;
     background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,6 +309,9 @@ h1,h2,h3 {
     width: 100%;
     font-size: 1rem;
     list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0 0 0;
@@ -368,6 +380,9 @@ h1,h2,h3 {
 }
 
 .address {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -386,6 +401,9 @@ h1,h2,h3 {
 }
 
 .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -399,6 +417,9 @@ h1,h2,h3 {
 }
 
 .input-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -493,6 +514,9 @@ h1,h2,h3 {
 }
 
 .footer-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -508,6 +532,9 @@ h1,h2,h3 {
 .footer-nav {
     list-style-type: none;
     background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -521,6 +548,9 @@ h1,h2,h3 {
 .social {
     list-style-type: none;
     background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     justify-content: center;
