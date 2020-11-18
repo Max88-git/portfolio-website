@@ -17,6 +17,7 @@ Project is created with:
 * I learnt how to use flexbox to create project cards with links to both GitHub and live sites.
 * How to make a simple contact form using flexbox.
 * Make a footer with navigation page links.
+* Use media queries for responsive design.
 * How to create a smooth scrolling effect for browsers that do not support the scroll-behaviour property.
 
 ## Status
