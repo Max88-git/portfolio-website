@@ -208,6 +208,15 @@ h1,h2,h3 {
     }
 }
 
+@media (max-width: 600px) {
+    .container h1 {
+        font-size: 2rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
+
 /* About */
 #profile-img {
     border-radius: 50%;
@@ -325,7 +334,7 @@ h1,h2,h3 {
     border-top: 1px solid rgba(0,0,0,.1)
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .card-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
@@ -491,7 +500,6 @@ h1,h2,h3 {
     }
     .input:first-child > input {
         margin-bottom: 20px;
-
     }
     .form .input > input {
         width: 100%;
@@ -499,12 +507,22 @@ h1,h2,h3 {
 }
 
 @media screen and (max-width: 580px) {
+    .inner-address .fas {
+        font-size: 1.5rem;
+    }
+    .contact-wrapper h1 {
+        margin-bottom: 30px;
+    }
     .address {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10px;
     }
     .inner-address {
         margin-bottom: 20px;
+    }
+    .form-title {
+        font-size: 1rem;
     }
 }
 
@@ -596,4 +614,13 @@ h1,h2,h3 {
 .footer-bottom p {
     font-size: 0.9rem;
     color: #2d3142;
+}
+
+@media screen and (max-width: 580px) {
+    .footer-bottom p {
+        margin: 0 15px;
+    }
+    .footer-bottom p span {
+        display: block;
+    }
 }
