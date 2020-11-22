@@ -478,6 +478,10 @@ h1,h2,h3 {
     border-radius: 3px;
 }
 
+.field {
+    margin-bottom: 20px;
+}
+
 .form-btn input {
     outline: none;
     border: 2px solid #fff;
