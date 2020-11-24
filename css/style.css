@@ -247,6 +247,20 @@ h1,h2,h3 {
     transform: scale(1.2);
 }
 
+@media screen and (max-width: 730px) {
+    .skills-icons {
+        width: 58px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills-icons {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 /* Portfolio */
 .card-wrapper {
     display: -webkit-box;
