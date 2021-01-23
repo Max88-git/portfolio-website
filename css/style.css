@@ -650,7 +650,7 @@ h1,h2,h3 {
     .footer-bottom p {
         margin: 0 15px;
     }
-    .footer-bottom p span {
+    #rights {
         display: block;
     }
 }

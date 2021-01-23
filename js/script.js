@@ -33,3 +33,8 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+//Auto update year in the footer
+$(document).ready(function(){
+  $('#copyright-year').text( new Date().getFullYear());
+});
