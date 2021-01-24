@@ -1,40 +1,42 @@
 // Navigation hamburger toggle
 $(function() {
-    $(".toggle").on("click", function(){
-        if($(".nav-item").hasClass("active")){
-            $(".nav-item").removeClass("active");
-        }
-        else{
-            $(".nav-item").addClass("active");
-        }
-    })
+	$('.toggle').on('click', function() {
+		if ($('.nav-item').hasClass('active')) {
+			$('.nav-item').removeClass('active');
+		} else {
+			$('.nav-item').addClass('active');
+		}
+	});
 });
 
-$(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (1000) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top - 85}, 1000, function(){
-     
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          // window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
+$(document).ready(function() {
+	// Add smooth scrolling to all links
+	$('a').on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== '') {
+			// Prevent default anchor click behavior
+			event.preventDefault();
+
+			// Store hash
+			var hash = this.hash;
+
+			// Using jQuery's animate() method to add smooth page scroll
+			// The optional number (1000) specifies the number of milliseconds it takes to scroll to the specified area
+			$('html, body').animate(
+				{
+					scrollTop: $(hash).offset().top - 85
+				},
+				1000,
+				function() {
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					// window.location.hash = hash;
+				}
+			);
+		} // End if
+	});
+});
 
 //Auto update year in the footer
-$(document).ready(function(){
-  $('#copyright-year').text( new Date().getFullYear());
+$(document).ready(function() {
+	$('#copyright-year').text(new Date().getFullYear());
 });
