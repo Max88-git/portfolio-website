@@ -200,6 +200,10 @@ h3 {
 	letter-spacing: 1px;
 }
 
+#about div {
+	max-width: 700px;
+}
+
 .lead {
 	font-size: 1.25rem;
 	font-weight: 400;
@@ -253,8 +257,8 @@ h3 {
 
 @media screen and (max-width: 730px) {
 	.skills-icons {
-		width: 58px;
-		height: 58px;
+		width: 48px;
+		height: 48px;
 	}
 }
 
