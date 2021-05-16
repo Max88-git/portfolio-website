@@ -140,15 +140,15 @@ a:hover {
 }
 
 .bg-primary {
-	background-color: #ef8354 !important;
+	background-color: #ef8354;
 }
 
 .bg-light {
-	background-color: #f8f9fa !important;
+	background-color: #f8f9fa;
 }
 
 .bg-dark {
-	background-color: #2d3142 !important;
+	background-color: #2d3142;
 }
 
 header {
@@ -337,18 +337,14 @@ h3 {
 	color: #eff;
 	font-size: 0.8rem;
 	text-decoration: none;
-	transition: all .5s;
+	transition: background-color 0.3s ease;
 }
 
 .card .btn:hover {
-	transform: translateY(-2px);
-	-webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	background-color: #ea5c1f;
 }
 
 .card .btn:active {
-	transform: translateY(0);
 	box-shadow: none;
 }
 
