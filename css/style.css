@@ -327,15 +327,23 @@ h3 {
 
 .btn-group {
 	margin: 15px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-group a {
+	width: 80px;
 }
 
 .card .btn {
-	padding: 10px 25px;
+	padding: 10px 0;
 	border-radius: 20px;
 	margin: 0 10px;
 	text-transform: uppercase;
 	color: #eff;
 	font-size: 0.8rem;
+	text-align: center;
 	text-decoration: none;
 	transition: background-color 0.3s ease;
 }
