@@ -171,6 +171,10 @@ section {
   color: white;
 }
 
+.text-dark {
+  color: #2d3142;
+}
+
 .text-center {
   text-align: center;
 }
@@ -316,7 +320,7 @@ h3 {
 }
 
 .title {
-  color: #777;
+  color: #000;
   font-size: 1rem;
   font-weight: 300;
   text-align: center;
@@ -346,7 +350,7 @@ h3 {
   border-radius: 20px;
   margin: 0 10px;
   text-transform: uppercase;
-  color: #eff;
+  color: #000;
   font-size: 0.8rem;
   text-align: center;
   text-decoration: none;
@@ -448,10 +452,11 @@ h3 {
 
 .inner-address p {
   font-size: 0.8rem;
+  color: #fff;
 }
 
 .inner-address p a {
-  color: #8997af;
+  color: #fff;
 }
 
 .inner-address .fas {
@@ -660,7 +665,7 @@ h3 {
 
 .footer-bottom p {
   font-size: 0.9rem;
-  color: #8997af;
+  color: #fff;
 }
 
 @media screen and (max-width: 580px) {
