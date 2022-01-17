@@ -51,6 +51,11 @@ a:hover {
 
 .menu li a {
   display: block;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #ef8354;
 }
 
 /* Mobile Menu */
