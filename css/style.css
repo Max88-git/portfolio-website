@@ -633,6 +633,11 @@ h3 {
   margin: 0 20px;
 }
 
+.footer-nav li a:hover {
+  text-decoration: none;
+  color: #41aa74;
+}
+
 .social-links {
   list-style-type: none;
   background: none;
