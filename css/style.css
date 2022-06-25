@@ -154,6 +154,10 @@ a:hover {
   background-color: #41aa74;
 }
 
+.bg-off-white {
+  background-color: #f0f0f0;
+}
+
 .bg-light {
   background-color: #e2ecee;
 }
