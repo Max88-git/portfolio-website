@@ -17,6 +17,12 @@ body {
   text-align: left;
 }
 
+/* Change Text Highlight Color */
+::selection {
+  background: #41aa74;
+  color: #fff;
+}
+
 /* Navigation */
 nav {
   overflow: hidden;
