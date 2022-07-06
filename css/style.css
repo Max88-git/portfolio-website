@@ -615,6 +615,7 @@ h3 {
 
 .footer-wrapper {
   max-width: 100%;
+  padding: 0 15px ;
 }
 
 .footer-content {
@@ -642,11 +643,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 0 20px 0;
 }
 
 .footer-nav li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .footer-nav li a:hover {
