@@ -24,7 +24,7 @@ body {
   text-align: left;
 }
 
-/* Change Text Highlight Color */
+/* Change text highlight color */
 ::selection {
   background: #41aa74;
   color: #fff;
@@ -179,12 +179,14 @@ a:hover {
   background-color: #0b2535;
 }
 
+/* Header */
 header {
   margin-top: 78px;
   padding: 60px 0;
   display: block;
 }
 
+/* Section */
 section {
   padding: 80px 0;
   display: block;
@@ -267,7 +269,7 @@ h3 {
   }
 }
 
-/* About */
+/* About section */
 #profile-img {
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -301,7 +303,7 @@ h3 {
   }
 }
 
-/* Portfolio */
+/* Portfolio section */
 .card-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -451,7 +453,7 @@ h3 {
   }
 }
 
-/* Contact */
+/* Contact section */
 .contact-wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -609,7 +611,7 @@ h3 {
   }
 }
 
-/* Footer */
+/* Footer section */
 .footer {
   position: absolute;
   bottom: 0;
