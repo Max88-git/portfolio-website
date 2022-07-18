@@ -564,7 +564,7 @@ h3 {
 .form-btn input:hover {
   border: 2px solid #41aa74;
   background: #41aa74;
-  color: #0b2535;
+  color: #fff;
 }
 
 ::-webkit-input-placeholder {
