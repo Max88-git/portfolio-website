@@ -39,7 +39,7 @@ body {
 /* Change text highlight color */
 ::selection {
   background: var(--sigma-natural-green);
-  color: #fff;
+  color: var(--white-smoke);
 }
 
 /* Navigation */
@@ -62,7 +62,7 @@ li.navbar-brand a {
 }
 
 a {
-  color: #fff;
+  color: var(--white-smoke);
   text-decoration: none;
 }
 
