@@ -290,11 +290,10 @@ h3 {
 }
 
 /* About section */
+/* Style for profile image */
 #profile-img {
   border-radius: 50%;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto 1rem;
   display: block;
 }
 
