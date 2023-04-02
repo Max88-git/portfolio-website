@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   font-display: optional;
 }
 
@@ -228,7 +228,7 @@ h3 {
 h1,
 h2,
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   margin-bottom: 0.5rem;
   line-height: 1.2;
   letter-spacing: 1px;
