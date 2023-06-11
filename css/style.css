@@ -7,6 +7,7 @@
   --sigma-natural-green: #41aa74;
   --prussian-blue: #0b2535;
   /* Secondary */
+  --white: #ffffff;
   --white-smoke: #f0f0f0;
   --light-blue-grey: #e2ecee;
   --arctic-blue: #c9dce0;
@@ -334,7 +335,7 @@ h3 {
 
 .card {
   width: 320px;
-  background-color: var(--white-smoke);
+  background-color: var(--white);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -345,9 +346,9 @@ h3 {
   margin: 30px;
   padding: 20px 20px;
   border-radius: 18px;
-  -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2); */
 }
 
 .card .card-img {
@@ -394,6 +395,7 @@ h3 {
 
 .card .btn-secondary {
   outline: 2px solid var(--sigma-natural-green);
+  background-color: var(--white);
   outline-offset: -2px;
 }
 
