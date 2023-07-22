@@ -394,6 +394,7 @@ h3 {
 }
 
 .card .btn-fill:hover {
+  color: var(--prussian-blue);
   background-color: var(--sigma-natural-green);
 }
 
