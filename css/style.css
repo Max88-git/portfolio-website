@@ -562,13 +562,13 @@ h3 {
   background-color: var(--prussian-blue);
   color: var(--white-smoke);
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .form-btn input:hover {
   border: 2px solid var(--sigma-natural-green);
   background: var(--sigma-natural-green);
-  color: var(--white-smoke);
+  color: var(--prussian-blue);
 }
 
 ::-webkit-input-placeholder {
