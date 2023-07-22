@@ -386,20 +386,25 @@ h3 {
   border-radius: 20px;
   margin: 0 10px;
   text-transform: uppercase;
-  color: var(--midnight-black);
+  color: var(--white);
   font-size: 0.8rem;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
-.card .btn-secondary {
-  outline: 2px solid var(--sigma-natural-green);
+.card .btn-fill:hover {
+  background-color: var(--sigma-natural-green);
+}
+
+.card .btn-outline {
+  color: var(--prussian-blue);
+  outline: 2px solid var(--prussian-blue);
   background-color: var(--white);
   outline-offset: -2px;
 }
 
-.card .btn:hover {
+.card .btn-outline:hover {
   background-color: var(--prussian-blue);
   color: var(--white-smoke);
   outline: none;
