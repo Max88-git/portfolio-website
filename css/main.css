@@ -1,0 +1,50 @@
+:root {
+  font-size: 16px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-display: optional;
+}
+
+/* Headers */
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Heroes */
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
+
+/* Temporary fix for social links */
+.fab {
+  color: black;
+}
+
+.fab:hover {
+  color: #4c4c4c;
+}
+
+/* Platform button padding */
+@media (max-width: 700px) {
+  .d-grid.gap-2.d-sm-block .btn {
+    margin-bottom: 0.3rem;
+  }
+}

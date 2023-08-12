@@ -214,7 +214,7 @@ a:hover {
 
 /* Header */
 header {
-  margin-top: 78px;
+  /* margin-top: 78px; */
   padding: 60px 0;
   display: block;
 }

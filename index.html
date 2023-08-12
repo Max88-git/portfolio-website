@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -11,243 +11,362 @@
     <meta name="author" content="Max Lockwood">
     <title>Max Lockwood</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/favicon/ml-leaf-32.png" />
-    <!-- Font Awesome icons -->
-    <script src="https://kit.fontawesome.com/8791d78d95.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/ml-leaf-32.png" />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/8791d78d95.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- jQuery Core 3.6.0 minified CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- Main JavaScript -->
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-<body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul class="container menu">
-            <li class="navbar-brand"><a href="#home"><img class="logo" src="img/logo/ml-circle-leaf-170.png" width="52"
-                        height="52" alt="Max Lockwood Logo"></a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://maxlockwood.dev/blog/">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            <li class="toggle"><span class="bars"></span></li>
-        </ul>
-    </nav>
+<body class="d-flex flex-column min-vh-100">
     <!-- Header -->
-    <header id="home" class="bg-light">
-        <div class="container text-center">
-            <h1>Hi, I'm Max Lockwood</h1>
-            <p class="lead">Frontend Developer based in Bristol, UK</p>
-        </div>
-    </header>
-    <!-- Beginning of Main -->
-    <main>
-        <!-- About Section -->
-        <section id="about">
-            <div class="container text-center">
-                <img id="profile-img" src="img/profile/max-profile-photo-200.jpg" width="200" height="200"
-                    alt="Profile Picture">
-                <h2>About</h2>
-                <p class="lead">I'm a Frontend Developer with a passion for web design and development. I'm currently
-                    employed in the creative field and want to make the switch to web development.</p><br>
-                <p class="lead">I knew I'd be encouraged to create more after writing my first line of code and creating
-                    a working web page. Simply put, I enjoy learning, and this project is an excellent example of that!
-                </p><br>
-                <p class="lead">I'm looking for a chance to work with a JavaScript framework, and I'd like to learn more
-                    about responsive mobile design in the long run.</p><br>
-                <p class="lead">You can usually find me sketching, hiking, or riding a mountain bike or motorcycle when
-                    I'm not coding.</p><br>
-                <p class="lead"> Please visit my contact section if you'd want to learn more about what motivates me.
-                </p><br>
-                <h3>Skills</h3>
-                <img class="skills-icons" src="img/skills/icons8-visual-studio-code-2019.svg"
-                    alt="Visual Studio Code Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-html-5.svg" alt="HTML5 Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-css3.svg" alt="CSS3 Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-javascript.svg" alt="JavaScript Icon" height="48"
-                    width="48" />
-                <img class="skills-icons" src="img/skills/icons8-sass.svg" alt="Sass Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-bootstrap.svg" alt="Bootstrap Icon" height="48"
-                    width="48" />
-                <img class="skills-icons" src="img/skills/icons8-jquery.svg" alt="jQuery Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-react.svg" alt="React Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-git.svg" alt="Git Icon" height="48" width="48" />
-                <img class="skills-icons" src="img/skills/icons8-github.svg" alt="GitHub Icon" height="48" width="48" />
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
+        <div class="container-lg py-2">
+            <a class="navbar-brand" href="#"><img src="assets/logo/ml-leaf-48.svg" alt="Max Lockwood Logo" width="32"
+                    height="32"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maxlockwood.dev/blog/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="https://github.com/Max88-git" target="_blank" rel="noopener" aria-label="github"><i
+                        class="fab fa-solid fa-brands fa-github fa-lg px-3"></i></a>
+                <a href="https://twitter.com/maxlockwood88" target="_blank" rel="noopener" aria-label="twitter"><i
+                        class="fab fa-solid fa-brands fa-twitter fa-lg px-3"></i></a>
             </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="bg-light" id="projects">
-            <div class="container">
-                <h2 class="text-center">Projects</h2>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-todomatic-react.jpg" alt="card image" class="card-img">
-                        <h3>TodoMatic App</h3>
-                        <p class="title">A To-Do List App built in React, to learn React fundamentals</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/todomatic-react" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/todomatic-react/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
-                        </div>
+        </div>
+    </nav>
+    <div class="container-xxl">
+        <main>
+            <!-- Hero -->
+            <div class="container px-4 py-5 my-5 text-center">
+                <img src="assets/profile/max-profile-photo-612.png" width="150" height="150" class="rounded-circle mb-4"
+                    alt="Profile Picture">
+                <h1 class="display-5 fw-bold text-body-emphasis">Max Lockwood</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Frontend Developer based in Bristol, UK</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#contact" class="btn btn-outline-dark btn-lg px-4 gap-3">Contact</a>
                     </div>
-
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-mtb-quiz.jpg" alt="card image" class="card-img">
-                        <h3>MTB Quiz App</h3>
-                        <p class="title">A mountain bike multiple choice JavaScript quiz application</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/mtb-quiz" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/mtb-quiz/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
-                        </div>
+                </div>
+            </div>
+            <!-- About -->
+            <div id="about" class="container py-5 my-5 text-center">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h2 class="display-6 fw-bold mb-5">About</h2>
+                        <p class="lead">I'm a Frontend Developer with a passion for web design and development. I'm
+                            currently employed in the creative field and want to make the switch to web development.</p>
+                        <p class="lead">I knew I'd be encouraged to create more after writing my first line of code and
+                            creating a working web page. Simply put, I enjoy learning, and this project is an excellent
+                            example of that!
+                        </p>
+                        <p class="lead">I'm looking for a chance to work with a JavaScript framework, and I'd like to
+                            learn
+                            more about responsive mobile design in the long run.</p>
+                        <p class="lead">You can usually find me sketching, hiking, or riding a mountain bike or
+                            motorcycle
+                            when I'm not coding.</p>
+                        <p class="lead"> Please visit my contact section if you'd want to learn more about what
+                            motivates
+                            me.
+                        </p>
                     </div>
-
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-simple-modal.jpg" alt="card image" class="card-img">
-                        <h3>Simple Modal Window</h3>
-                        <p class="title">A custom modal window to welcome new users to a teams dashboard</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/simple-modal" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/simple-modal/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
+                </div>
+            </div>
+            <!-- Skills -->
+            <div class="px-4 py-5 my-5 text-center">
+                <h2 class="display-6 fw-bold mb-5">Skills</h2>
+                <p class="lead mb-5">Here are a set of skills I have experience using as a frontend developer:</p>
+                <i class="fab fa-solid fa-brands fa-html5 fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-css3-alt fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-js fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-sass fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-bootstrap fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-react fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-git-alt fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-github fa-3x p-3"></i>
+                <i class="fab fa-solid fa-brands fa-figma fa-3x p-3"></i>
+            </div>
+            <!-- Projects -->
+            <div id="projects" class="py-5 my-5 bg-body">
+                <div class="container">
+                    <h2 class="display-6 fw-bold mb-5 text-center">Projects</h2>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <!-- First Row -->
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-todomatic-react.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">React To-Do List App, to showcase my understanding of
+                                        fundamental React concepts.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/todomatic-react" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/todomatic-react/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">React</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-steffen.jpg" alt="card image" class="card-img">
-                        <h3>Steffen Østli Portfolio</h3>
-                        <p class="title">A minimalist portfolio website for photographer Steffen Østli</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/steffen_ostli" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/steffen_ostli/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-mtb-quiz.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">Mountain Bike JavaScript Quiz App, a multiple-choice adventure
+                                        that challenges and educates.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/mtb-quiz" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/mtb-quiz/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">JavaScript</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-enviro-bootstrap.jpg" alt="card image" class="card-img">
-                        <h3>Enviro Website</h3>
-                        <p class="title">A landing page for an environmental organisation using Bootstrap 5</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/enviro-bootstrap" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/enviro-bootstrap/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-simple-modal.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">A custom modal window to welcome new users to a teams
+                                        dashboard.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/simple-modal" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/simple-modal/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">CSS</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <img src="img/portfolio/portfolio-img-finance-app.jpg" alt="card image" class="card-img">
-                        <h3>Finance App</h3>
-                        <p class="title">A Finance App landing page focusing on responsive web design</p>
-                        <div class="btn-group">
-                            <a href="https://github.com/Max88-git/finance-app" target="_blank" rel="noopener"
-                                class="bg-dark btn btn-fill">Repo</a>
-                            <a href="https://max88-git.github.io/finance-app/" target="_blank" rel="noopener"
-                                class="bg-off-white btn btn-outline">Live</a>
+                        <!-- Second Row -->
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-intro-component.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">Intro Component featuring a seamless sign-up form solution
+                                        complete with advanced form validation.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/intro-component" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/intro-component/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">CSS</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-enviro-bootstrap.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">Crafted with Bootstrap 5, this landing page empowers
+                                        environmental organizations.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/enviro-bootstrap" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/enviro-bootstrap/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">Bootstrap</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="assets/projects/project-finance-app.jpg"
+                                    class="bd-placeholder-img card-img-top img-fluid" width="100%" height="225"
+                                    alt="...">
+                                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg> -->
+                                <div class="card-body">
+                                    <p class="card-text">Finance App landing page showcasing responsive web design that
+                                        engages users across devices.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a href="https://github.com/Max88-git/finance-app" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Code</a>
+                                            <a href="https://max88-git.github.io/finance-app/" target="_blank"
+                                                rel="noopener" class="btn btn-sm btn-outline-secondary">Live</a>
+                                        </div>
+                                        <small class="text-body-secondary">CSS</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="contact-wrapper">
-                    <h2>Contact</h2>
-
-                    <div class="address">
-                        <div class="inner-address">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>Bristol, United Kingdom</p>
+            <!-- Contact Form -->
+            <div id="contact" class="container py-4 my-5">
+                <h2 class="display-6 fw-bold mb-5 text-center">Contact</h2>
+                <div class="row"></div>
+                <div class="col-lg-6 offset-lg-3">
+                    <form id="contactForm" form action="POST" data-netlify="true">
+                        <!-- Name input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" />
                         </div>
-                        <div class="inner-address">
-                            <i class="fas fa-envelope"></i>
-                            <p><a href="mailto:mlockwood@hotmail.co.uk">mlockwood@hotmail.co.uk</a>
-                            </p>
+                        <!-- Email address input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="emailAddress">Email Address</label>
+                            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
                         </div>
-                        <div class="inner-address">
-                            <i class="fas fa-phone-alt"></i>
-                            <p>+44 (0) 7904 721097</p>
+                        <!-- Message input -->
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" type="text" placeholder="Message"
+                                style="height: 10rem;"></textarea>
                         </div>
-                    </div>
-                    <form action="POST" data-netlify="true">
-                        <div class="form">
-                            <div class="form-title">
-                                Leave me a message
-                            </div>
-                            <div class="input-form">
-                                <div class="input">
-                                    <input type="text" name="name" placeholder="Name">
-                                </div>
-                                <div class="input">
-                                    <input type="text" name="email" placeholder="Email Address">
-                                </div>
-                            </div>
-                            <div class="inner-msg">
-                                <div class="msg">
-                                    <textarea name="message" id="message" cols="30" rows="10"
-                                        placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <div data-netlify-recaptcha="true"></div>
-                            </div>
-                            <div class="form-btn">
-                                <input type="submit" value="Send Message">
-                            </div>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                        <!-- Form submit button -->
+                        <div class="d-grid">
+                            <button class="btn btn-dark btn-lg" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
-        </section>
-    </main>
-    <!-- End of Main -->
+            <!-- Platforms -->
+            <div class="px-4 py-5 my-5 text-center">
+                <h2 class="display-6 fw-bold mb-5">Platforms</h2>
+                <p class="lead mb-5">You can connect and reach me on the following platforms:</p>
+                <div class="d-grid gap-2 d-sm-block">
+                    <a class="btn btn-dark" href="https://github.com/Max88-git" target="_blank" rel="noopener"
+                        role="button">GitHub</a>
+                    <a class="btn btn-dark" href="https://www.linkedin.com/in/max-lockwood/" target="_blank"
+                        rel="noopener" role="button">LinkedIn</a>
+                    <a class="btn btn-dark" href="https://twitter.com/maxlockwood88" target="_blank" rel="noopener"
+                        role="button">Twitter</a>
+                    <a class="btn btn-dark" href="https://dev.to/max88git" target="_blank" rel="noopener"
+                        role="button">DEV
+                        Community</a>
+                    <a class="btn btn-dark" href="https://www.codewars.com/users/maxlockwood" target="_blank"
+                        rel="noopener" role="button">Codewars</a>
+                    <a class="btn btn-dark" href="https://www.frontendmentor.io/profile/Max88-git" target="_blank"
+                        rel="noopener" role="button">Frontend Mentor</a>
+                </div>
+            </div>
+        </main>
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-dark" id="footer">
-        <div class="footer-wrapper">
-            <div class="footer-content">
-                <img src="img/logo/ml-leaf-48.svg" width="48" height="48" alt="Max Lockwood Logo">
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/max-lockwood/" target="_blank" rel="noopener"
-                        aria-label="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
-                    <a href="https://github.com/Max88-git" target="_blank" rel="noopener" aria-label="github"><i
-                            class="fab fa-github-square fa-2x"></i></a>
-                    <a href="https://dev.to/max88git" target="_blank" rel="noopener" aria-label="dev.to"><i
-                            class="fab fa-dev fa-2x"></i></a>
-                    <a href="https://twitter.com/maxlockwood88" target="_blank" rel="noopener" aria-label="twitter"><i
-                            class="fab fa-twitter-square fa-2x"></i></a>
-                </div>
-                <ul class="footer-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="https://maxlockwood.dev/blog/">Blog</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-bottom">
-                <p>Created by Max Lockwood &copy; <span id="copyright-year">2020</span>.<span id="rights">
-                        All rights reserved.</span></p>
-            </div>
-        </div>
-    </footer>
+    <div class="container-fluid bg-body-tertiary">
+        <footer class="container-lg d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Max Lockwood. All rigths reserved.</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="assets/logo/ml-leaf-48.svg" width="32" height="32" alt="Max Lockwood Logo">
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="https://maxlockwood.dev/blog/"
+                        class="nav-link px-2 text-body-secondary">Blog</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
