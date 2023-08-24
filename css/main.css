@@ -48,3 +48,11 @@
     margin-bottom: 0.3rem;
   }
 }
+
+/* reCAPTCHA */
+.recaptcha-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
