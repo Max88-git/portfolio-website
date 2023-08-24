@@ -12,6 +12,7 @@ Welcome to my personal portfolio website, where I am pleased to showcase my most
 - [Built with](#built-with)
 - [What I Learnt](#what-i-learnt)
 - [Status](#status)
+- [Deploy status badge](#deploy)
 - [Contact](#contact)
 
 ### Intent
@@ -62,6 +63,12 @@ By working on this project, I not only improved my technical skills but also gai
 Project is: _in progress_
 
 This website is still being developed and there will be updates to the design, projects and responsiveness.
+
+### Deploy status badge
+
+This image automatically updates to reflect the current state of your latest production deploy.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fbc608a-6942-40d5-8181-9f41ae4728b2/deploy-status)](https://app.netlify.com/sites/maxlockwood/deploys)
 
 ### Contact
 
