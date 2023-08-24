@@ -12,7 +12,7 @@ Welcome to my personal portfolio website, where I am pleased to showcase my most
 - [Built with](#built-with)
 - [What I Learnt](#what-i-learnt)
 - [Status](#status)
-- [Deploy status badge](#deploy)
+- [Deploy status badge](#deploy-status-badge)
 - [Contact](#contact)
 
 ### Intent
