@@ -2,6 +2,12 @@
   font-size: 16px;
   font-family: "Inter", Helvetica, sans-serif;
   font-display: optional;
+
+  /* Colour Palette HEX */
+  --black: #000604;
+  --alice-blue: #e2ecee;
+  --jade: #41aa74;
+  --prussian-blue: #0b2535;
 }
 
 /* Headers */
